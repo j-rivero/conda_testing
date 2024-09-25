@@ -1,0 +1,46 @@
+name: gazebo
+channels:
+  - conda-forge
+dependencies:
+  # Not in vcpkg
+  - python=3.9
+  - colcon-common-extensions
+  - vcstool
+  - ruby
+  - libglu
+  - libglvnd-devel-cos7-x86_64
+  - libwebsockets
+  - mesa-libegl-devel-cos7-x86_64
+  - mesa-libgl-devel-cos7-x86_64
+  - vulkan-headers
+  # VCPKG_DEPENDENCIES_LEGACY
+  - assimp
+  - boost-cpp=1.78.0
+  - bullet-cpp
+  - libccd-double
+    #  - console-bridge
+  - cppzmq
+  - cuda
+  - curl
+  - dlfcn-win32  # win
+  - eigen
+  - fcl=0.7.0
+  - ffmpeg
+  - freeimage
+  - gdal
+  - gflags
+  - glib
+  - gts
+  - jsoncpp
+  - yaml
+  - libzip
+  - ogre
+  - ogre-next
+  - openssl
+  - protobuf
+  - pybind11
+  - qt-main
+  - qwt
+  - libsqlite
+  - tinyxml2
+  - zeromq
